@@ -8,6 +8,11 @@ Download the package with composer:
 ```
 composer require willvincent/laravel-markdown
 ```
+**NOTE:** You may need to add the following to your composer.json to allow dev packages to be installed:
+```
+"minimum-stability": "dev",
+"prefer-stable": true
+```
 
 Update your config/app.php file to reference the provider and facade:
 ```
