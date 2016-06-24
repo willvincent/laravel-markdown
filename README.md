@@ -45,5 +45,5 @@ Markdown::parse($text)
 Presumably most people will use this to display data loaded from their database within a blade template;
 
 ```
-  <div class="parsed-markdown-text">{{ Markdown::parse($text) }}</div>
+  <div class="parsed-markdown-text">{!! Markdown::parse($text) !!}</div>
 ```
